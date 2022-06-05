@@ -7,6 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventHub.Core", "..\..\src\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventHub.Core.Tests", "..\..\src\EventHub.Core.Tests\EventHub.Core.Tests.csproj", "{B1793E49-620B-418B-92BD-80EF0913FFE7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C099E2DD-4C6B-49DA-8585-D6D9BB630D26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{8051E271-14AF-4E0B-A659-73A4F4B03400}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\README.md = ..\..\README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +31,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3D18EAD4-3606-4810-826F-3BA7EF3DB50F} = {C099E2DD-4C6B-49DA-8585-D6D9BB630D26}
+		{B1793E49-620B-418B-92BD-80EF0913FFE7} = {C099E2DD-4C6B-49DA-8585-D6D9BB630D26}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {279C133B-DD69-4BF8-8BCA-01B7C60A2F60}
